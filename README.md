@@ -5,6 +5,11 @@ Dieses Projekt ist eine Backendkomponente der Zwitscher-Anwendung.
 
 Durch einen REST-Webservice kann sich das Frontend mit Informationen füttern lassen. 
 
+Requires: 
+---------
+* JDK 1.6
+* Maven 3
+* evtl. Eclipse ;) 
 
 Entwicklung:
 -----------
