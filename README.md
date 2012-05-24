@@ -29,7 +29,7 @@ WAR-Testen:
 
 Der Initiale-Service kann unter folgender URL erreicht werden.
 
-   http://localhost:9999/cxf/rest/time
+   http://localhost:9999/cxf/rest/feed
 
 Sonstiges
 ---------

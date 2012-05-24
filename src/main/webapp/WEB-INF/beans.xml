@@ -16,11 +16,11 @@
 <!--     <context:annotation-config /> -->
     
 
-	<bean id="timeService" class="edu.hm.cc.zwitscher.backend.TimerService"/>
+	<bean id="feedService" class="edu.hm.cc.zwitscher.backend.FeedService"/>
                  
     <jaxrs:server id="restContainer" address="/">
         <jaxrs:serviceBeans>
-            <ref bean="timeService"/>
+            <ref bean="feedService"/>
         </jaxrs:serviceBeans>
     </jaxrs:server>
     
